@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Curriculum = () => {
   return (
-    <div className='page'>
+    <div className='page2'>
       <h1 className='heading'>Sobre mi</h1>
 
       <h4>Soy una persona altamente motivada y enfocada en el logro

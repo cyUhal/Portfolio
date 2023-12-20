@@ -6,7 +6,7 @@ import {NavLink} from 'react-router-dom'
     <header className='header'>
         <div className='logo'>
         <span>.C</span>
-        <h3>Cyntia Uhalde WEB</h3>
+        
         </div>
         <nav>
             <ul>
@@ -18,6 +18,10 @@ import {NavLink} from 'react-router-dom'
                 <li>
                     <NavLink to='/curriculum' className={({isActive}) => (isActive ? 'active' : '')}>Curriculum</NavLink>
                 </li>
+                <li>
+                    <NavLink to='/listWorks' className={({isActive}) =>( isActive ? 'active' : '')}>Proyectos</NavLink>
+                </li>
+
                 <li>
                     <NavLink to='/contact' className={({isActive}) =>( isActive ? 'active' : '')}>Contact</NavLink>
                 </li>
